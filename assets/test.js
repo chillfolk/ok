@@ -20,7 +20,7 @@ BasicGame.Boot.prototype =
 
         game.plugins.add(new Phaser.Plugin.Isometric(game));
 
-        game.load.atlasJSONHash('tileset', 'assets/s.png', 'assets/tileset.json');
+        game.load.atlasJSONHash('tileset', 'https://raw.githubusercontent.com/chillfolk/ok/master/assets/tileset.png', 'https://raw.githubusercontent.com/chillfolk/ok/master/assets/tileset.json');
 
         game.physics.startSystem(Phaser.Plugin.Isometric.ISOARCADE);
         game.iso.anchor.setTo(0.5, 0.1);
