@@ -1,0 +1,17 @@
+html, body {
+  height:100%;
+}
+
+body{
+  margin:0;
+}
+
+#one {
+  height:100%;
+  background:#1f1f1f;
+}
+
+
+
+
+.link{color:#87cefa;}
